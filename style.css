@@ -1,5 +1,6 @@
 .container{
     margin: 100px;
+    padding-left: 130px;
 }
 .img-1{
     display: inline-block;
@@ -32,6 +33,7 @@ h2,h4,h5{
     margin: auto;
 }
 .chefdetails{
+    border-bottom: 1px solid grey;
     p{
     text-align: center;
     margin-left: 300px;
@@ -40,25 +42,67 @@ h2,h4,h5{
 }
 .page-down1{
     width: 400px;
-    display: inline-block;
+    /* display: inline-block; */
     margin-left: 100px;
-    p{
+    padding-right: 0px;
+    /* p{
         text-align: center;
-    }
+    } */
 }
 .page-down2{
-    display: inline-block;
+    /* display: inline-block; */
+    width: 300px;
+    margin-left: 20px;
+    /* p{
+        text-align: center;
+    } */
+}
+.page-down3{
+    /* display: inline-block; */
     width: 400px;
     margin-left: 20px;
     p{
         text-align: center;
     }
 }
-.page-down3{
+.bg{
+    height: 50px;
+    width: 50px;
+}
+.footer{
+    display: flex;
+    padding: 0px 80px;
+}
+.blog-img1{
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+    border-bottom: 1px solid grey;
+}
+.blog-img2{
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+    padding-top: 10px;
+}
+.img-side-txt{
+    line-height: 0.3;
+    align-items: center;
+}
+.span-tag{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.tag{
     display: inline-block;
-    width: 400px;
-    margin-left: 20px;
-    p{
-        text-align: center;
-    }
+    padding: 0px 5px;
+    margin: 3px;
+    border: 1px solid grey;
+    background-color: grey;
+    color: white;
+    font-size: small;
+}
+.tag.color{
+    background-color: black;
+    padding: 5px;
 }
