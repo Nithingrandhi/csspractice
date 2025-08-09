@@ -1,0 +1,64 @@
+.container{
+    margin: 100px;
+}
+.img-1{
+    display: inline-block;
+    width: 300px;
+    margin-left: 20px;
+}
+.img-2{
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+}
+.img-3{
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+}
+.img-4{
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+}
+img{
+    width: 100%;
+}
+h2,h4,h5{
+    text-align: center;
+}
+.chefimg{
+    width: 800px;
+    margin: auto;
+}
+.chefdetails{
+    p{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+}
+.page-down1{
+    width: 400px;
+    display: inline-block;
+    margin-left: 100px;
+    p{
+        text-align: center;
+    }
+}
+.page-down2{
+    display: inline-block;
+    width: 400px;
+    margin-left: 20px;
+    p{
+        text-align: center;
+    }
+}
+.page-down3{
+    display: inline-block;
+    width: 400px;
+    margin-left: 20px;
+    p{
+        text-align: center;
+    }
+}
